@@ -1,0 +1,5 @@
+<article ng-repeat = 'post in PostCtrl.posts'>
+	<h1><a href="#/post/{{PostCtrl.posts.indexOf(post)}}">{{post.title}}</a></h1>
+	<p>{{post.excerpt}}</p>
+	<a href="#/post/{{PostCtrl.posts.indexOf(post)}}">Read more &rarr;</a>
+</article>
